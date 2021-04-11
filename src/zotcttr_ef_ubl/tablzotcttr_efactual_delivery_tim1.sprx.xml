@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZOTCTTR_EFACTUAL_DELIVERY_TIM1</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZOTCTTR_EFACTUAL_DELIVERY_TIM1</OBJ_NAME_M>
+     <HASH_ID>C19EA4ADDF50E0854EC6DD75AF0B6DA24F6D5A1D</HASH_ID>
+     <ID>&lt;element&gt; ActualDeliveryTime urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2 urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>ActualDeliveryTime</IFR_NAME>
+     <IFR_NSPCE>urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</IFR_NSPCE>
+     <IFR_GNSPCE>urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZOTCTTR_EF</PREFIX>
+     <CATEGORY>element</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</X-ML_NSPCE>
+     <X-ML_NAME>ActualDeliveryTime</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZOTCTTR_EFACTUAL_DELIVERY_TIM1</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>INCLUDE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>INCLUDE</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZOTCTTR_EFACTUAL_DELIVERY_TIME</OBJ_NAME_R>
+     <ID>&lt;Include&gt; Include &lt;element&gt; ActualDeliveryTime urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2 urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</ID>
+     <IFR_TYPE>Include</IFR_TYPE>
+     <IFR_NAME>Include</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>INCLUDE</R3_NAME>
+     <R3_INCLUDE>X</R3_INCLUDE>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZOTCTTR_EFACTUAL_DELIVERY_TIM1</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZOTCTTR_EFACTUAL_DELIVERY_TIM1</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZOTCTTR_EFACTUAL_DELIVERY_TIM1</OBJ_NAME2>
+     <ID>&lt;element&gt; ActualDeliveryTime urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2 urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>ActualDeliveryTime</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZOTCTTR_EFACTUAL_DELIVERY_TIM1</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>element</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZOTCTTR_EFBILLING_REFERENCE_LI</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZOTCTTR_EFBILLING_REFERENCE_LI</OBJ_NAME_M>
+     <HASH_ID>53E0A1D3C66568EE6F325C79E6B817E3D5E0510A</HASH_ID>
+     <ID>&lt;type&gt; BillingReferenceLineType urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2 urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>BillingReferenceLineType</IFR_NAME>
+     <IFR_NSPCE>urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</IFR_NSPCE>
+     <IFR_GNSPCE>urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZOTCTTR_EF</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</X-ML_NSPCE>
+     <X-ML_NAME>BillingReferenceLineType</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZOTCTTR_EFBILLING_REFERENCE_LI</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>ALLOWANCE_CHARGE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>ALLOWANCE_CHARGE</OBJ_NAME2>
+     <OBJECT_R>TTYP</OBJECT_R>
+     <OBJ_NAME_R>ZOTCTTR_EFALLOWANCE_CHARGE_TAB</OBJ_NAME_R>
+     <ID>&lt;element&gt; {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}AllowanceCharge &lt;type&gt; BillingReferenceLineType urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2 urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>AllowanceCharge</IFR_NAME>
+     <IFR_TAGTYP>L</IFR_TAGTYP>
+     <IFR_MAXOCC>65535</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>ALLOWANCE_CHARGE</R3_NAME>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZOTCTTR_EFBILLING_REFERENCE_LI</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>AMOUNT</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>AMOUNT</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZOTCTTR_EFAMOUNT</OBJ_NAME_R>
+     <ID>&lt;element&gt; {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}Amount &lt;type&gt; BillingReferenceLineType urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2 urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>Amount</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>AMOUNT</R3_NAME>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZOTCTTR_EFBILLING_REFERENCE_LI</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>ID</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>ID</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZOTCTTR_EFID</OBJ_NAME_R>
+     <ID>&lt;element&gt; {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}ID &lt;type&gt; BillingReferenceLineType urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2 urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>ID</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>ID</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZOTCTTR_EFBILLING_REFERENCE_LI</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZOTCTTR_EFBILLING_REFERENCE_LI</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZOTCTTR_EFBILLING_REFERENCE_LI</OBJ_NAME2>
+     <ID>&lt;type&gt; BillingReferenceLineType urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2 urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>BillingReferenceLineType</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZOTCTTR_EFBILLING_REFERENCE_LI</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

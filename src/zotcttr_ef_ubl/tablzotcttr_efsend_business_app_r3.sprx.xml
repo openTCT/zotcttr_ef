@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZOTCTTR_EFSEND_BUSINESS_APP_R3</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZOTCTTR_EFSEND_BUSINESS_APP_R3</OBJ_NAME_M>
+     <HASH_ID>2C5A03C3245B215F254482CFA845C4437F7E518E</HASH_ID>
+     <ID>&lt;message&gt; SendBusinessAppResp http://www.opentct.com/efatura http://www.opentct.com/efatura</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>SendBusinessAppResp</IFR_NAME>
+     <IFR_NSPCE>http://www.opentct.com/efatura</IFR_NSPCE>
+     <IFR_GNSPCE>http://www.opentct.com/efatura</IFR_GNSPCE>
+     <GEN_VERS>0006</GEN_VERS>
+     <PREFIX>ZOTCTTR_EF</PREFIX>
+     <CATEGORY>ifmmessage</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>http://www.opentct.com/efatura</X-ML_NSPCE>
+     <X-ML_NAME>SendBusinessAppResp</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZOTCTTR_EFSEND_BUSINESS_APP_R3</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>RESP_CODE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>RESP_CODE</OBJ_NAME2>
+     <ID>&lt;element&gt; {http://www.opentct.com/efatura}respCode &lt;message&gt; SendBusinessAppResp http://www.opentct.com/efatura http://www.opentct.com/efatura</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>respCode</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>RESP_CODE</R3_NAME>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZOTCTTR_EFSEND_BUSINESS_APP_R3</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>RESP_DESC</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>RESP_DESC</OBJ_NAME2>
+     <ID>&lt;element&gt; {http://www.opentct.com/efatura}respDesc &lt;message&gt; SendBusinessAppResp http://www.opentct.com/efatura http://www.opentct.com/efatura</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>respDesc</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>RESP_DESC</R3_NAME>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZOTCTTR_EFSEND_BUSINESS_APP_R3</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>UUID</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>UUID</OBJ_NAME2>
+     <ID>&lt;element&gt; {http://www.opentct.com/efatura}UUID &lt;message&gt; SendBusinessAppResp http://www.opentct.com/efatura http://www.opentct.com/efatura</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>UUID</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>UUID</R3_NAME>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZOTCTTR_EFSEND_BUSINESS_APP_R3</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZOTCTTR_EFSEND_BUSINESS_APP_R3</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZOTCTTR_EFSEND_BUSINESS_APP_R3</OBJ_NAME2>
+     <ID>&lt;message&gt; SendBusinessAppResp http://www.opentct.com/efatura http://www.opentct.com/efatura</ID>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>SendBusinessAppResp</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZOTCTTR_EFSEND_BUSINESS_APP_R3</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmmessage</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

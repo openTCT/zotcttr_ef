@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZOTCTTR_EFTEMPERATURE_TYPE</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZOTCTTR_EFTEMPERATURE_TYPE</OBJ_NAME_M>
+     <HASH_ID>7C0C1D2A2ED5D9577C06F99B6C30C9D5AED1C9C1</HASH_ID>
+     <ID>&lt;type&gt; TemperatureType urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2 urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>TemperatureType</IFR_NAME>
+     <IFR_NSPCE>urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</IFR_NSPCE>
+     <IFR_GNSPCE>urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZOTCTTR_EF</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</X-ML_NSPCE>
+     <X-ML_NAME>TemperatureType</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZOTCTTR_EFTEMPERATURE_TYPE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>ATTRIBUTE_ID</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>ATTRIBUTE_ID</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZOTCTTR_EFATTRIBUTE_ID</OBJ_NAME_R>
+     <ID>&lt;element&gt; {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}AttributeID &lt;type&gt; TemperatureType urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2 urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>AttributeID</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>ATTRIBUTE_ID</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZOTCTTR_EFTEMPERATURE_TYPE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>DESCRIPTION</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>DESCRIPTION</OBJ_NAME2>
+     <OBJECT_R>TTYP</OBJECT_R>
+     <OBJ_NAME_R>ZOTCTTR_EFDESCRIPTION_TAB</OBJ_NAME_R>
+     <ID>&lt;element&gt; {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}Description &lt;type&gt; TemperatureType urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2 urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>Description</IFR_NAME>
+     <IFR_TAGTYP>L</IFR_TAGTYP>
+     <IFR_MAXOCC>65535</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>DESCRIPTION</R3_NAME>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZOTCTTR_EFTEMPERATURE_TYPE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>MEASURE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>MEASURE</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZOTCTTR_EFMEASURE</OBJ_NAME_R>
+     <ID>&lt;element&gt; {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}Measure &lt;type&gt; TemperatureType urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2 urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>Measure</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>MEASURE</R3_NAME>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZOTCTTR_EFTEMPERATURE_TYPE</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZOTCTTR_EFTEMPERATURE_TYPE</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZOTCTTR_EFTEMPERATURE_TYPE</OBJ_NAME2>
+     <ID>&lt;type&gt; TemperatureType urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2 urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>TemperatureType</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZOTCTTR_EFTEMPERATURE_TYPE</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZOTCTTR_EFLOT_IDENTIFICATION_T</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZOTCTTR_EFLOT_IDENTIFICATION_T</OBJ_NAME_M>
+     <HASH_ID>473F6A0A87CB8F0086BC485152D9B8456CBEA8FC</HASH_ID>
+     <ID>&lt;type&gt; LotIdentificationType urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2 urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>LotIdentificationType</IFR_NAME>
+     <IFR_NSPCE>urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</IFR_NSPCE>
+     <IFR_GNSPCE>urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZOTCTTR_EF</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</X-ML_NSPCE>
+     <X-ML_NAME>LotIdentificationType</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZOTCTTR_EFLOT_IDENTIFICATION_T</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>ADDITIONAL_ITEM_PROPERTY</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>ADDITIONAL_ITEM_PROPERTY</OBJ_NAME2>
+     <OBJECT_R>TTYP</OBJECT_R>
+     <OBJ_NAME_R>ZOTCTTR_EFITEM_PROPERTY_TY_TAB</OBJ_NAME_R>
+     <ID>&lt;element&gt; {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}AdditionalItemProperty &lt;type&gt; LotIdentificationType urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2 urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>AdditionalItemProperty</IFR_NAME>
+     <IFR_TAGTYP>L</IFR_TAGTYP>
+     <IFR_MAXOCC>65535</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>ADDITIONAL_ITEM_PROPERTY</R3_NAME>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZOTCTTR_EFLOT_IDENTIFICATION_T</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>EXPIRY_DATE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>EXPIRY_DATE</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZOTCTTR_EFEXPIRY_DATE</OBJ_NAME_R>
+     <ID>&lt;element&gt; {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}ExpiryDate &lt;type&gt; LotIdentificationType urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2 urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>ExpiryDate</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>EXPIRY_DATE</R3_NAME>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZOTCTTR_EFLOT_IDENTIFICATION_T</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>LOT_NUMBER_ID</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>LOT_NUMBER_ID</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZOTCTTR_EFLOT_NUMBER_ID</OBJ_NAME_R>
+     <ID>&lt;element&gt; {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}LotNumberID &lt;type&gt; LotIdentificationType urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2 urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>LotNumberID</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>LOT_NUMBER_ID</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZOTCTTR_EFLOT_IDENTIFICATION_T</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZOTCTTR_EFLOT_IDENTIFICATION_T</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZOTCTTR_EFLOT_IDENTIFICATION_T</OBJ_NAME2>
+     <ID>&lt;type&gt; LotIdentificationType urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2 urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>LotIdentificationType</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZOTCTTR_EFLOT_IDENTIFICATION_T</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>
