@@ -12,8 +12,7 @@ asdfadf
    :maxdepth: 2
    :caption: Contents:
 
-   test
-   test2.md
+   sdd.md
 
 Indices and tables
 ==================
