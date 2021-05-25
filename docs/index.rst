@@ -9,10 +9,13 @@ Welcome to tref documentation's documentation!
 asdfadf
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 5
    :caption: Contents:
 
-   sdd.md
+   genelbakis.md
+   paketyapisi.md
+   teknikmimari.md
+   repository.md
 
 Indices and tables
 ==================
