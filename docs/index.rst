@@ -6,7 +6,6 @@
 Welcome to openTCT Turkey e-Invoice documentation
 ==============================================
 
-asdfadf
 
 .. toctree::
    :maxdepth: 5
