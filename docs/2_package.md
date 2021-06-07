@@ -1,4 +1,4 @@
-#2. Paket Yapısı
+# 2. Paket Yapısı
 
 Ana paket ZOTCTTR_EF olarak adlandırılmıştır. Bu paket, aşağıda açıklanacak olan alt paketleri (subpackages) kapsayıcı bir pakettir.
 
