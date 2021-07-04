@@ -1,1 +1,1 @@
-# 3. Teknik Mimari
+# 3. Technical Architecture
