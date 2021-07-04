@@ -1,18 +1,17 @@
-# 4.2. Sınıflar (Class)
+# 4.2. Classes
 
 
 ## 4.2.1. ZOTCTTR_EF_CL000
 
-Ürün için genel superclass olarak tasarlanmıştır. Uyarlama tabloları, constantlar bu class içinde tutulmaktadır.
-
+Superclass for the solution. Customizing tables, constant values, etc. are stored in this class on runtime.
 
 <table>
   <tr>
    <td><strong>Method</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Access</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -45,13 +44,13 @@
 
 <table>
   <tr>
-   <td><strong>Attribute</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -223,13 +222,13 @@
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -251,13 +250,13 @@
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -289,13 +288,13 @@
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -324,16 +323,15 @@
 
 ## 4.2.2. ZOTCTTR_EF_CL101
 
-Uygulama classıdır. Fatura objelerinin oluşturulduğu ve gönderim, önizleme, yanıtlama vb. işlemler bu class içinden tetiklenir.
-
+Application class. Invoice objects are instantiated, listed and used within this class.
 
 <table>
   <tr>
    <td><strong>Method</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Access</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -352,9 +350,9 @@ Uygulama classıdır. Fatura objelerinin oluşturulduğu ve gönderim, önizleme
   <tr>
    <td><strong>Attribute</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Access</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -374,13 +372,13 @@ Uygulama classıdır. Fatura objelerinin oluşturulduğu ve gönderim, önizleme
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -419,16 +417,15 @@ Uygulama classıdır. Fatura objelerinin oluşturulduğu ve gönderim, önizleme
 
 ## 4.2.3. ZOTCTTR_EF_CL111
 
-Gelen belge extractorudur.
-
+Inbound invoice extractor.
 
 <table>
   <tr>
    <td><strong>Method</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Access</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -445,13 +442,13 @@ Gelen belge extractorudur.
 
 <table>
   <tr>
-   <td><strong>Attribute</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -473,13 +470,13 @@ Gelen belge extractorudur.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -518,66 +515,64 @@ Gelen belge extractorudur.
 
 ## 4.2.4. ZOTCTTR_EF_CL102
 
-Giden e-fatura belge classıdır. ZOTCTTR_EF_IF101 interface'ini kullanır.
+Outbound invoice class. Uses interface ZOTCTTR_EF_IF101.
 
 
 ## 4.2.5. ZOTCTTR_EF_CL103
 
-Gelen e-fatura belge classıdır. ZOTCTTR_EF_IF101 interface'ini kullanır.
+Inbound invoice class. Uses interface ZOTCTTR_EF_IF101.
 
 
 ## 4.2.6. ZOTCTTR_EF_CL104
 
-Gelen e-faturaya verilen yanıt classıdır. ZOTCTTR_EF_IF102 interface'ini kullanır.
-
+Outbound response to inbound invoice class. Uses interface ZOTCTTR_EF_IF102.
 
 ## 4.2.7. ZOTCTTR_EF_CL105
 
-Gönderilen e-faturaya gelen yanıt classıdır. ZOTCTTR_EF_IF102 interface'ini kullanır.
-
+Inbound response to outbound invoice class. Uses interface ZOTCTTR_EF_IF102.
 
 ## 4.2.8. ZOTCTTR_EF_CL200
 
-Extractor factory classtır. ZOTCTTR_EF_IF201 interface'ini kullanır.
+Extractor factory class. Uses interface ZOTCTTR_EF_IF201.
 
 
 ## 4.2.9. ZOTCTTR_EF_CL211
 
-SD extractor classtır. ZOTCTTR_EF_CL210 classını extend eder.
+SD extractor class. Extends class ZOTCTTR_EF_CL210.
 
 
 ## 4.2.10. ZOTCTTR_EF_CL212
 
-FI extractor classtır. ZOTCTTR_EF_CL210 classını extend eder.
+FI extractor class. Extends class ZOTCTTR_EF_CL210.
 
 
 ## 4.2.11. ZOTCTTR_EF_CL213
 
-MM extractor classtır. ZOTCTTR_EF_CL210 classını extend eder.
+MM extractor class. Extends ZOTCTTR_EF_CL210.
 
 
 ## 4.2.12 ZOTCTTR_EF_CL301
 
-R3 rapor classıdır. ZOTCTTR_EF_IF301 interface'ini kullanır.
+R3 report class. Uses interface ZOTCTTR_EF_IF301.
 
 
 ## 4.2.13. ZOTCTTR_EF_CL400
 
-Entegratör factory classtır. ZOTCTTR_EF_IF401 interface'ini kullanır.
+Integrator factory class. Uses interface ZOTCTTR_EF_IF401.
 
 
 ## 4.2.14. ZOTCTTR_EF_CL411
 
-Efinans entegratör classtır. ZOTCTTR_IF_CL402 arayüzünü kullanır.
+eFinans integrator class. Extends class ZOTCTTR_EF_CL410.
 
 
 <table>
   <tr>
    <td><strong>Method</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Access</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -594,11 +589,11 @@ Efinans entegratör classtır. ZOTCTTR_IF_CL402 arayüzünü kullanır.
 
 <table>
   <tr>
-   <td><strong>Attribute</strong>
+   <td><strong>Method</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Access</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -631,16 +626,16 @@ Efinans entegratör classtır. ZOTCTTR_IF_CL402 arayüzünü kullanır.
 
 ## 4.2.15. ZOTCTTR_EF_CL412
 
-Uyumsoft entegratör classtır. ZOTCTTR_EF_CL410 classını extend eder.
+Uyumsoft integrator class. Extends class ZOTCTTR_EF_CL410.
 
 
 <table>
   <tr>
    <td><strong>Method</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Access</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -657,11 +652,11 @@ Uyumsoft entegratör classtır. ZOTCTTR_EF_CL410 classını extend eder.
 
 <table>
   <tr>
-   <td><strong>Attribute</strong>
+   <td><strong>Method</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Access</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -694,17 +689,17 @@ Uyumsoft entegratör classtır. ZOTCTTR_EF_CL410 classını extend eder.
 
 ## 4.2.16. ZOTCTTR_EF_CL413
 
-Tam entegratör classtır. ZOTCTTR_EF_CL410 classını extend eder.
+Direct integration class. Extends class ZOTCTTR_EF_CL410.
 
 
 ## 4.2.17. ZOTCTTR_EF_CL501
 
-UBL classtır, ZOTCT_UTILS paketindeki ürün ve ülkeye özgü UBL engine classı extend eder.
+UBL class, extends relevant UBL engine class from package ZOTCT_UTILS.
 
 
 ## 4.2.18. ZOTCTTR_EF_CL600
 
-User exit factory classtır.
+User-exit factory class.
 
 
 ## 4.2.19. ZCX_OTCT
