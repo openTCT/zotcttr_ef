@@ -1,3 +1,3 @@
-## 1.1. Özet
+## 1.1. Introduction
 
-openTCT Türkiye SAP e-Fatura Paketi basitçe SAP sisteminde çeşitli modüller üzerinde bulunan fatura belgelerinin bir kokpitte toplanması ve regülasyona uygun şekilde GİB'e iletilmesini sağlar.
+openTCT Turkey SAP e-Invoice package is a product that extracts invoice data from various modules from ERP and submits it to the Turkish tax authorities. 
