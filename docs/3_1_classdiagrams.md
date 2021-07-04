@@ -1,4 +1,4 @@
-# 3.1. Class Diagramları
+# 3.1. Class Diagrams
 
 
 ## 3.1.1. Host
