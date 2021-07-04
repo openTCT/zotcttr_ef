@@ -1,11 +1,11 @@
-# 2. Paket Yapısı
+# 2. Package Structure
 
-Ana paket ZOTCTTR_EF olarak adlandırılmıştır. Bu paket, aşağıda açıklanacak olan alt paketleri (subpackages) kapsayıcı bir pakettir.
+The main package is named as ZOTCTTR_EF. This package includes some subpackages.
 
-Sistem mimarisi host-client yapısı üzerinden tanımlanmıştır. Host rolünde çalışacak sistemde gönderim raporları, DDIC nesneleri, user-exitler, entegrasyon sınıfları gibi merkezi repository objeleri bulunmaktadır. 
+System architecture is based on a host-client structure. The host side includes reports, DDIC objects, user-exits and integration classes. Invoice sending, preview, responding, etc. is carried on by host system.
 
-Client rolünde çalışacak sistemde fatura belgelerini okuyup gerekli veriyi elde edecek olan extractor sınıfları ve bunların RFC wrapperları bulunacaktır. Bu package'da mümkün olduğu kadar az repository object bulundurmak esastır. 
+On client side, there are extractor classes and RFC wrappers that extracts invoice data from ERP and sends it to the host system. The client side needs to have as few objects and logic as possible for a clean structure.
 
-Bu mimari, çeşitli sistem yapıları (system landscape) ile uyumlu çalışacak şekilde tasarlanmıştır. Tek sistemden ibaret SAP kurgularında host ile client aynı sistem üzerinde çalışacaktır. Birden fazla sistemden oluşan SAP kurgularında bir sistem host olarak belirlenecek, kokpit ve gönderim işlemleri bu sistem üzerinden gerçekleştirilecek ve diğer sistemlerdeki fatura belgeleri RFC ile uzaktaki client package'dan çekilecektir.
+This architecture is designed to work well for various system landscapes. For a single-system landscape, this one system will work both as host and client. On a multi-system landscape, one system will work as a host and others will work as clients. 
 
 ![paket yapisi](https://i.imgur.com/JM3UfnK.png)
