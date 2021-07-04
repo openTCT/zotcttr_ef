@@ -1,18 +1,18 @@
-# 4.1. Arayüzler (Interface)
+# 4.1. Interfaces
 
 
 ## 4.1.1. ZOTCTTR_EF_IF101
 
-Fatura arayüzüdür. 
+Invoice interface.
 
 
 <table>
   <tr>
    <td><strong>Method</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Access</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -215,11 +215,11 @@ Fatura arayüzüdür.
   <tr>
    <td><strong>Attribute</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Access</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -261,13 +261,13 @@ Fatura arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -289,13 +289,13 @@ Fatura arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -317,13 +317,13 @@ Fatura arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -345,13 +345,13 @@ Fatura arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -373,13 +373,13 @@ Fatura arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -401,13 +401,13 @@ Fatura arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -439,13 +439,13 @@ Fatura arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -487,13 +487,13 @@ Fatura arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -535,13 +535,13 @@ Fatura arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -573,13 +573,13 @@ Fatura arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -611,13 +611,13 @@ Fatura arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -649,13 +649,13 @@ Fatura arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -687,13 +687,13 @@ Fatura arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -725,13 +725,13 @@ Fatura arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -773,13 +773,13 @@ Fatura arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -821,13 +821,13 @@ Fatura arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -859,13 +859,13 @@ Fatura arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -897,13 +897,13 @@ Fatura arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -935,13 +935,13 @@ Fatura arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -973,13 +973,13 @@ Fatura arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1011,13 +1011,13 @@ Fatura arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1059,13 +1059,13 @@ Fatura arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1087,13 +1087,13 @@ Fatura arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1115,13 +1115,13 @@ Fatura arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1140,16 +1140,15 @@ Fatura arayüzüdür.
 
 ## 4.1.2. ZOTCTTR_EF_IF102
 
-Fatura yanıt arayüzüdür.
-
+Invoice response interface.
 
 <table>
   <tr>
    <td><strong>Method</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Access</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1208,11 +1207,11 @@ Fatura yanıt arayüzüdür.
   <tr>
    <td><strong>Attribute</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Access</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1242,7 +1241,7 @@ Fatura yanıt arayüzüdür.
    </td>
    <td>ZOTCTTR_EF_S3002
    </td>
-   <td>App. response bilgileri
+   <td>App. response info
    </td>
   </tr>
 </table>
@@ -1254,13 +1253,13 @@ Fatura yanıt arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1282,13 +1281,13 @@ Fatura yanıt arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1310,13 +1309,13 @@ Fatura yanıt arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1348,13 +1347,13 @@ Fatura yanıt arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1386,13 +1385,13 @@ Fatura yanıt arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1424,13 +1423,13 @@ Fatura yanıt arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1466,9 +1465,9 @@ Extractor factory arayüzüdür.
   <tr>
    <td><strong>Method</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Access</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1493,13 +1492,13 @@ Extractor factory arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Attribute</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1521,13 +1520,13 @@ Extractor factory arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1563,9 +1562,9 @@ Extractor arayüzüdür.
   <tr>
    <td><strong>Method</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Access</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1590,13 +1589,13 @@ Extractor arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Attribute</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1618,13 +1617,13 @@ Extractor arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1634,7 +1633,7 @@ Extractor arayüzüdür.
    </td>
    <td>ZOTCTTR_EF_S3007
    </td>
-   <td>Başlık, kalem, party dataları
+   <td>Header, item, party data
    </td>
   </tr>
   <tr>
@@ -1656,13 +1655,13 @@ Extractor arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1681,16 +1680,16 @@ Extractor arayüzüdür.
 
 ## 4.1.5 ZOTCTTR_EF_IF301
 
-Front end arayüzüdür.
+UI interface.
 
 
 <table>
   <tr>
    <td><strong>Method</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Access</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1739,13 +1738,13 @@ Front end arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Attribute</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1777,13 +1776,13 @@ Front end arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1815,13 +1814,13 @@ Front end arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1843,13 +1842,13 @@ Front end arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1871,13 +1870,13 @@ Front end arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1926,16 +1925,16 @@ Front end arayüzüdür.
 
 ## 4.1.6. ZOTCTTR_EF_IF401
 
-Entegratör factory arayüzüdür.
+Integrator factory interface.
 
 
 <table>
   <tr>
    <td><strong>Method</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Access</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1962,9 +1961,9 @@ Entegratör factory arayüzüdür.
   <tr>
    <td><strong>Attribute</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Access</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1984,13 +1983,13 @@ Entegratör factory arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -2026,9 +2025,9 @@ Entegratör arayüzü..
   <tr>
    <td><strong>Method</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Access</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -2095,9 +2094,9 @@ Entegratör arayüzü..
   <tr>
    <td><strong>Attribute</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Access</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -2141,13 +2140,13 @@ Entegratör arayüzü..
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -2169,13 +2168,13 @@ Entegratör arayüzü..
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -2207,13 +2206,13 @@ Entegratör arayüzü..
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -2245,13 +2244,13 @@ Entegratör arayüzü..
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -2283,13 +2282,13 @@ Entegratör arayüzü..
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -2331,13 +2330,13 @@ Entegratör arayüzü..
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -2369,13 +2368,13 @@ Entegratör arayüzü..
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -2404,16 +2403,16 @@ Entegratör arayüzü..
 
 ## 4.1.8. ZOTCTTR_EF_IF501
 
-UBL engine arayüzüdür.
+UBL engine interface.
 
 
 <table>
   <tr>
    <td><strong>Method</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Access</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -2440,9 +2439,9 @@ UBL engine arayüzüdür.
   <tr>
    <td><strong>Attribute</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Access</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -2459,16 +2458,16 @@ UBL engine arayüzüdür.
 
 ## 4.1.9. ZOTCTTR_EF_IF601
 
-User-exit factory arayüzüdür.
+User-exit factory interface.
 
 
 <table>
   <tr>
    <td><strong>Method</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Access</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -2495,9 +2494,9 @@ User-exit factory arayüzüdür.
   <tr>
    <td><strong>Attribute</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Access</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -2517,13 +2516,13 @@ User-exit factory arayüzüdür.
 
 <table>
   <tr>
-   <td><strong>Parametre</strong>
+   <td><strong>Parameter</strong>
    </td>
-   <td><strong>İşlev</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Tip</strong>
+   <td><strong>Type</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -2552,16 +2551,15 @@ User-exit factory arayüzüdür.
 
 ## 4.1.10. ZOTCTTR_EF_IF602
 
-User exit arayüzüdür.. Müşteri host sisteminde bu arayüzü kullanan bir Z* class oluşturularak user-exit geliştirmeleri implemente edilir.
-
+User exit interface. A Z* or Y* class will be implemented which use this interface.
 
 <table>
   <tr>
    <td><strong>Method</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Access</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -2764,9 +2762,9 @@ User exit arayüzüdür.. Müşteri host sisteminde bu arayüzü kullanan bir Z*
   <tr>
    <td><strong>Attribute</strong>
    </td>
-   <td><strong>Erişim</strong>
+   <td><strong>Access</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
