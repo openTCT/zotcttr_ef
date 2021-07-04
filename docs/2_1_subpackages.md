@@ -52,24 +52,21 @@ Table 1 - Subpackages
 
 ## 2.1.1. ZOTCTTR_EF_HOST
 
-e-Fatura arka uç (back-end) paketi. Genel olarak fatura gönderim ve alım işlemleri için gerekli DDIC objeleri ve application classları içerir.
-
+e-Invoice host package. It includes objects related to invoice sending and receiving.
 
 ## 2.1.2. ZOTCTTR_EF_CLIENT
 
-e-Fatura istemci (client) paketi. Fatura belgelerini okuyup host paketine iletmek için gerekli extractor sınıflarını içerir.
-
+e-Invoice client package. It includes extractors that reads invoice data from ERP system.
 
 ## 2.1.3. ZOTCTTR_EF_UI
 
-e-Fatura ön uç (front-end) paketi. Host paketinin bir alt paketidir. Raporlar ve Fiori, BSP, WD gibi arayüz uygulamaları bu paket altında bulunmaktadır.
-
+e-Invoice UI package. It includes reports, fiori, bsp, webdynpro, etc. apps.
 
 ## 2.1.4. ZOTCTTR_EF_INT
 
-e-Fatura entegrasyon paketi. Host paketinin altında bulunmaktadır. Özel entegratör ve imza sunucusuna bağlantı için gerekli proxy objelerini içerir.
-
+e-Invoice integration package. It is a subpackage of the host package. It includes private integrator and signature server proxy objects.
 
 ## 2.1.5. ZOTCTTR_EF_EXIT
 
-e-Fatura user exit paketi. Host paketinin altında bulunmaktadır. Sistem özelinde yapılan geliştirmeler bu paket altında bulunmaktadır..
+e-Invoice user-exit package. It is a subpackage of the host package. System-specified development and objects are going to be created under this package.
+
