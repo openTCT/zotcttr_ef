@@ -1,53 +1,53 @@
-# 2.1. Alt paketler
+# 2.1. Subpackages
 
 
 <table>
   <tr>
-   <td><strong>Paket Adı</strong>
+   <td><strong>Package Name</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
    <td>ZOTCTTR_EF_HOST
    </td>
-   <td>e-Fatura arka uç (back-end) paketi
+   <td>e-Invoice host package
    </td>
   </tr>
   <tr>
    <td>ZOTCTTR_EF_CLI
    </td>
-   <td>e-Fatura istemci (client) paketi
+   <td>e-Invoice client package
    </td>
   </tr>
   <tr>
    <td>ZOTCTTR_EF_UI
    </td>
-   <td>e-Fatura ön uç (front-end) paketi
+   <td>e-Invoice UI package
    </td>
   </tr>
   <tr>
    <td>ZOTCTTR_EF_INT
    </td>
-   <td>e-Fatura entegrasyon paketi
+   <td>e-Invoice integration package
    </td>
   </tr>
   <tr>
    <td>ZOTCTTR_EF_UBL
    </td>
-   <td>e-Fatura UBL paketi
+   <td>e-Invoice UBL package
    </td>
   </tr>
   <tr>
    <td>ZOTCTTR_EF_EXIT
    </td>
-   <td>e-Fatura user exit paketi
+   <td>e-Invoice user-exit package
    </td>
   </tr>
 </table>
 
 
-Tablo 1 - Alt paketler
+Table 1 - Subpackages
 
 
 ## 2.1.1. ZOTCTTR_EF_HOST
