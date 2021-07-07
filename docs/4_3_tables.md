@@ -1,19 +1,19 @@
-# 4.3. Tablolar
+# 4.3. Tables
 
 
 <table>
   <tr>
-   <td><strong>Tablo Adı</strong>
+   <td><strong>Table Name</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
-   <td><strong>Paket</strong>
+   <td><strong>Package</strong>
    </td>
   </tr>
   <tr>
    <td>ZOTCTTR_EF_T0001
    </td>
-   <td>Şirket Bilgileri Uyarlaması
+   <td>Company Code Customization
    </td>
    <td>HOST
    </td>
@@ -21,7 +21,7 @@
   <tr>
    <td>ZOTCTTR_EF_T0002
    </td>
-   <td>Belge Tipi Uyarlaması
+   <td>Document Type Customization
    </td>
    <td>HOST
    </td>
@@ -29,7 +29,7 @@
   <tr>
    <td>ZOTCTTR_EF_T0003
    </td>
-   <td>Modül Uyarlaması
+   <td>Module Customization
    </td>
    <td>HOST
    </td>
@@ -37,7 +37,7 @@
   <tr>
    <td>ZOTCTTR_EF_T0004
    </td>
-   <td>XSLT Uyarlaması
+   <td>XSLT Customization
    </td>
    <td>HOST
    </td>
@@ -45,7 +45,7 @@
   <tr>
    <td>ZOTCTTR_EF_T0005
    </td>
-   <td>Seri Uyarlaması
+   <td>Serial Customization
    </td>
    <td>HOST
    </td>
@@ -53,7 +53,7 @@
   <tr>
    <td>ZOTCTTR_EF_T0006
    </td>
-   <td>İhracat Uyarlaması
+   <td>Export Customization
    </td>
    <td>HOST
    </td>
@@ -61,7 +61,7 @@
   <tr>
    <td>ZOTCTTR_EF_T0007
    </td>
-   <td>Faturalaşma Uyarlaması
+   <td>Profile Customization
    </td>
    <td>HOST
    </td>
@@ -69,7 +69,7 @@
   <tr>
    <td>ZOTCTTR_EF_T0008
    </td>
-   <td>Banka Bilgileri Uyarlaması
+   <td>Bank Customization
    </td>
    <td>HOST
    </td>
@@ -77,7 +77,7 @@
   <tr>
    <td>ZOTCTTR_EF_T0009
    </td>
-   <td>Client Uyarlaması
+   <td>Client Customization
    </td>
    <td>CLI
    </td>
@@ -85,7 +85,7 @@
   <tr>
    <td>ZOTCTTR_EF_T0101
    </td>
-   <td>Vergi Uyarlaması
+   <td>Tax Customization
    </td>
    <td>HOST
    </td>
@@ -93,7 +93,7 @@
   <tr>
    <td>ZOTCTTR_EF_T0102
    </td>
-   <td>Vergi İstisna Uyarlaması
+   <td>Tax Exemption Customization
    </td>
    <td>HOST
    </td>
@@ -101,7 +101,7 @@
   <tr>
    <td>ZOTCTTR_EF_T0103
    </td>
-   <td>Tevkifat Uyarlaması
+   <td>Withholding Tax Customization
    </td>
    <td>HOST
    </td>
@@ -109,7 +109,7 @@
   <tr>
    <td>ZOTCTTR_EF_T0104
    </td>
-   <td>Document Type Uyarlaması (sd,fi,mm vs)
+   <td>Document Type Customization (sd,fi,mm etc.)
    </td>
    <td>HOST
    </td>
@@ -117,7 +117,7 @@
   <tr>
    <td>ZOTCTTR_EF_T0201
    </td>
-   <td>Mükellef Listesi
+   <td>User List
    </td>
    <td>HOST
    </td>
@@ -125,7 +125,7 @@
   <tr>
    <td>ZOTCTTR_EF_T0202
    </td>
-   <td>UBL Birim Kodu Listesi
+   <td>UBL Unit Code List
    </td>
    <td>HOST
    </td>
@@ -133,7 +133,7 @@
   <tr>
    <td>ZOTCTTR_EF_T0203
    </td>
-   <td>GİB Statü Kodu Listesi
+   <td>GİB Status Code List
    </td>
    <td>HOST
    </td>
@@ -141,7 +141,7 @@
   <tr>
    <td>ZOTCTTR_EF_T0204
    </td>
-   <td>Para Birimi Listesi
+   <td>Currency List
    </td>
    <td>HOST
    </td>
@@ -149,7 +149,7 @@
   <tr>
    <td>ZOTCTTR_EF_T1101
    </td>
-   <td>Fatura Başlık
+   <td>Invoice Header
    </td>
    <td>HOST
    </td>
@@ -157,7 +157,7 @@
   <tr>
    <td>ZOTCTTR_EF_T1102
    </td>
-   <td>Fatura Zarf
+   <td>Invoice Envelope
    </td>
    <td>HOST
    </td>
@@ -173,7 +173,7 @@
   <tr>
    <td>ZOTCTTR_EF_T1104
    </td>
-   <td>Referans Anaveri
+   <td>Reference Master Data
    </td>
    <td>
    </td>
@@ -181,7 +181,7 @@
   <tr>
    <td>ZOTCTTR_EF_T1301
    </td>
-   <td>Giden Faturaya Gelen Uygulama Yanıtları
+   <td>Inbound Application Response
    </td>
    <td>HOST
    </td>
@@ -189,7 +189,7 @@
   <tr>
    <td>ZOTCTTR_EF_T1401
    </td>
-   <td>Gelen Faturaya Verilen Uygulama Yanıtları
+   <td>Outbound Application Response
    </td>
    <td>
    </td>
@@ -197,7 +197,7 @@
   <tr>
    <td>ZOTCTTR_EF_T2001
    </td>
-   <td>Job Log Tablosu
+   <td>Job Log Table
    </td>
    <td>
    </td>
@@ -205,21 +205,20 @@
 </table>
 
 
-Tablo 2 - Tablolar
+Table 2 - Tables
 
 
 ## 4.3.1. ZOTCTTR_EF_T0001
 
-Şirket bilgileri uyarlama tablosudur
-
+Company code info
 
 <table>
   <tr>
-   <td><strong>Alan Adı</strong>
+   <td><strong>Fieldname</strong>
    </td>
    <td><strong>Data Element</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -235,7 +234,7 @@ Tablo 2 - Tablolar
    </td>
    <td>BUKRS
    </td>
-   <td>Şirket Kodu
+   <td>Company Code
    </td>
   </tr>
   <tr>
@@ -243,7 +242,7 @@ Tablo 2 - Tablolar
    </td>
    <td>ZOTCTTR_EF_DE001
    </td>
-   <td>Unvan
+   <td>Title
    </td>
   </tr>
   <tr>
@@ -251,15 +250,15 @@ Tablo 2 - Tablolar
    </td>
    <td>ZOTCTTR_EF_DE002
    </td>
-   <td>Vergi Dairesi
+   <td>Tax Office
    </td>
   </tr>
   <tr>
-   <td>VKN
+   <td>TIN
    </td>
    <td>ZOTCTTR_EF_DE003
    </td>
-   <td>VKN ya da TCKN
+   <td>VKN or TCKN
    </td>
   </tr>
   <tr>
@@ -275,7 +274,7 @@ Tablo 2 - Tablolar
    </td>
    <td>ZOTCTTR_EF_DE005
    </td>
-   <td>Ticaret Sicil No
+   <td>Trade Register Number
    </td>
   </tr>
   <tr>
@@ -291,7 +290,7 @@ Tablo 2 - Tablolar
    </td>
    <td>ZOTCTTR_EF_DE007
    </td>
-   <td>e-Fatura Mükelleflik Tarihi
+   <td>e-Invoice Registration Date
    </td>
   </tr>
   <tr>
@@ -299,7 +298,7 @@ Tablo 2 - Tablolar
    </td>
    <td>ZOTCTTR_EF_DE008
    </td>
-   <td>Web Site Adresi
+   <td>Web Site
    </td>
   </tr>
   <tr>
@@ -307,7 +306,7 @@ Tablo 2 - Tablolar
    </td>
    <td>ZOTCTTR_EF_DE009
    </td>
-   <td>Posta Kutusu
+   <td>Postbox
    </td>
   </tr>
   <tr>
@@ -315,7 +314,7 @@ Tablo 2 - Tablolar
    </td>
    <td>ZOTCTTR_EF_DE010
    </td>
-   <td>Kapı No
+   <td>Door no
    </td>
   </tr>
   <tr>
@@ -323,7 +322,7 @@ Tablo 2 - Tablolar
    </td>
    <td>ZOTCTTR_EF_DE011
    </td>
-   <td>Cadde/Sokak
+   <td>Street
    </td>
   </tr>
   <tr>
@@ -331,7 +330,7 @@ Tablo 2 - Tablolar
    </td>
    <td>ZOTCTTR_EF_DE012
    </td>
-   <td>Blok
+   <td>Block
    </td>
   </tr>
   <tr>
@@ -339,7 +338,7 @@ Tablo 2 - Tablolar
    </td>
    <td>ZOTCTTR_EF_DE013
    </td>
-   <td>Bina Adı
+   <td>Building Name
    </td>
   </tr>
   <tr>
@@ -347,7 +346,7 @@ Tablo 2 - Tablolar
    </td>
    <td>ZOTCTTR_EF_DE014
    </td>
-   <td>Bina No
+   <td>Building No
    </td>
   </tr>
   <tr>
@@ -355,7 +354,7 @@ Tablo 2 - Tablolar
    </td>
    <td>ZOTCTTR_EF_DE015
    </td>
-   <td>İlçe
+   <td>City Subdivision
    </td>
   </tr>
   <tr>
@@ -363,7 +362,7 @@ Tablo 2 - Tablolar
    </td>
    <td>ZOTCTTR_EF_DE016
    </td>
-   <td>İl
+   <td>City
    </td>
   </tr>
   <tr>
@@ -371,7 +370,7 @@ Tablo 2 - Tablolar
    </td>
    <td>ZOTCTTR_EF_DE017
    </td>
-   <td>Posta Kutusu
+   <td>Postal Zone
    </td>
   </tr>
   <tr>
@@ -379,7 +378,7 @@ Tablo 2 - Tablolar
    </td>
    <td>ZOTCTTR_EF_DE018
    </td>
-   <td>Bölge
+   <td>Region
    </td>
   </tr>
   <tr>
@@ -387,7 +386,7 @@ Tablo 2 - Tablolar
    </td>
    <td>ZOTCTTR_EF_DE019
    </td>
-   <td>Ülke
+   <td>Country
    </td>
   </tr>
   <tr>
@@ -395,7 +394,7 @@ Tablo 2 - Tablolar
    </td>
    <td>ZOTCTTR_EF_DE020
    </td>
-   <td>Telefon
+   <td>Telephone
    </td>
   </tr>
   <tr>
@@ -419,13 +418,13 @@ Tablo 2 - Tablolar
    </td>
    <td>ZOTCTTR_EF_DE023
    </td>
-   <td>Profil
+   <td>Profile
    </td>
   </tr>
 </table>
 
 
-Tablo 3 - ZOTCTTR_EF_T0001 Tablo yapısı
+Table 3 - ZOTCTTR_EF_T0001 Table detail
 
 
 ## 4.3.2. ZOTCTTR_EF_T0002
