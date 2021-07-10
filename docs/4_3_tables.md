@@ -429,20 +429,17 @@ Table 3 - ZOTCTTR_EF_T0001 Table detail
 
 ## 4.3.2. ZOTCTTR_EF_T0002
 
-Senaryo uyarlama tablosudur. Bu tablo ile e-Faturaya konu olan belgeler çeşitli özelliklerine göre sınıflandırılarak işlenebilir. 
-
-Örnek: Belli bir satış organizasyonu altındaki SD faturalarının ihracat faturası olarak işlenmesini sağlamak.
-
+Scenario customizing table. This table is used for determining scenarios in the system. Scenario is a concept of categorization of invoices based on some attributes like company code, sales organization, billing type, etc. or another custom parameter. For example, you could set a certain billing type to process as export e-Invoice
 
 <table>
   <tr>
-   <td><strong>Alan Adı</strong>
+   <td><strong>Fieldname</strong>
    </td>
    <td><strong>Key</strong>
    </td>
    <td><strong>Data Element</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -462,17 +459,17 @@ Senaryo uyarlama tablosudur. Bu tablo ile e-Faturaya konu olan belgeler çeşitl
    </td>
    <td>BUKRS
    </td>
-   <td>Şirket Kodu
+   <td>Company Code
    </td>
   </tr>
   <tr>
-   <td>MODUL
+   <td>MODULE
    </td>
    <td>X
    </td>
    <td>ZOTCTTR_EF_DE024
    </td>
-   <td>Modül
+   <td>Module
    </td>
   </tr>
   <tr>
@@ -482,7 +479,7 @@ Senaryo uyarlama tablosudur. Bu tablo ile e-Faturaya konu olan belgeler çeşitl
    </td>
    <td>ZOTCTTR_EF_DE025
    </td>
-   <td>Parametre Key
+   <td>Parameter Key
    </td>
   </tr>
   <tr>
@@ -492,7 +489,7 @@ Senaryo uyarlama tablosudur. Bu tablo ile e-Faturaya konu olan belgeler çeşitl
    </td>
    <td>ZOTCTTR_EF_DE026
    </td>
-   <td>Parametre Value
+   <td>Parameter Value
    </td>
   </tr>
   <tr>
@@ -502,29 +499,28 @@ Senaryo uyarlama tablosudur. Bu tablo ile e-Faturaya konu olan belgeler çeşitl
    </td>
    <td>ZOTCTTR_EF_DE027
    </td>
-   <td>Senaryo
+   <td>Scenario
    </td>
   </tr>
 </table>
 
 
-Tablo 4 - ZOTCTTR_EF_T0002 Tablo yapısı
+Table 4 - ZOTCTTR_EF_T0002
 
 
 ## 4.3.3. ZOTCTTR_EF_T0003
 
-Modül uyarlama tablosudur. Sistemde fatura belgesi üreten modülleri içerir.
-
+Module customizing table. Stores invoicing modules on system.
 
 <table>
   <tr>
-   <td><strong>Alan Adı</strong>
+   <td><strong>Fieldname</strong>
    </td>
    <td><strong>Key</strong>
    </td>
    <td><strong>Data Element</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -544,7 +540,7 @@ Modül uyarlama tablosudur. Sistemde fatura belgesi üreten modülleri içerir.
    </td>
    <td>ZOTCTTR_EF_DE028
    </td>
-   <td>Modül ID
+   <td>Module ID
    </td>
   </tr>
   <tr>
@@ -564,7 +560,7 @@ Modül uyarlama tablosudur. Sistemde fatura belgesi üreten modülleri içerir.
    </td>
    <td>ZOTCTTR_EF_DE030
    </td>
-   <td>Açıklama
+   <td>Description
    </td>
   </tr>
   <tr>
@@ -574,29 +570,28 @@ Modül uyarlama tablosudur. Sistemde fatura belgesi üreten modülleri içerir.
    </td>
    <td>ZOTCTTR_EF_DE031
    </td>
-   <td>Kullanılmıyor
+   <td>Disabled
    </td>
   </tr>
 </table>
 
 
-Tablo 5 - ZOTCTTR_EF_T0003 Tablo yapısı
+Table 5 - ZOTCTTR_EF_T0003
 
 
 ## 4.3.4. ZOTCTTR_EF_T0004
 
-XSLT uyarlama tablosudur. Hangi belge tipin hangi XSLT'yi kullanacağı bilgisini içerir.
-
+XSLT customizing table. Maps XSLT layouts to invoice scenarios.
 
 <table>
   <tr>
-   <td><strong>Alan Adı</strong>
+   <td><strong>Fieldname</strong>
    </td>
    <td><strong>Key</strong>
    </td>
    <td><strong>Data Element</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -616,7 +611,7 @@ XSLT uyarlama tablosudur. Hangi belge tipin hangi XSLT'yi kullanacağı bilgisin
    </td>
    <td>ZOTCTTR_EF_DE027
    </td>
-   <td>Senaryo
+   <td>Scenario
    </td>
   </tr>
   <tr>
@@ -626,7 +621,7 @@ XSLT uyarlama tablosudur. Hangi belge tipin hangi XSLT'yi kullanacağı bilgisin
    </td>
    <td>ZOTCTTR_EF_DE032
    </td>
-   <td>XSLT Adı
+   <td>XSLT Name
    </td>
   </tr>
   <tr>
@@ -636,7 +631,7 @@ XSLT uyarlama tablosudur. Hangi belge tipin hangi XSLT'yi kullanacağı bilgisin
    </td>
    <td>ZOTCTTR_EF_DE033
    </td>
-   <td>XSLT Kaynak Kod
+   <td>XSLT Source
    </td>
   </tr>
   <tr>
@@ -646,7 +641,7 @@ XSLT uyarlama tablosudur. Hangi belge tipin hangi XSLT'yi kullanacağı bilgisin
    </td>
    <td>ZOTCTTR_EF_DE034
    </td>
-   <td>Firma Logosu
+   <td>Firm Logo
    </td>
   </tr>
   <tr>
@@ -656,31 +651,36 @@ XSLT uyarlama tablosudur. Hangi belge tipin hangi XSLT'yi kullanacağı bilgisin
    </td>
    <td>ZOTCTTR_EF_DE035
    </td>
-   <td>GİB Logosu
+   <td>GIB Logosu
+   </td>
+  </tr>
+  <tr>
+   <td>SIGNATURE
+   </td>
+   <td>
+   </td>
+   <td>ZOTCTTR_EF_DE104
+   </td>
+   <td>İmza
    </td>
   </tr>
 </table>
 
-
-Tablo 6 - ZOTCTTR_EF_T0004 Tablo yapısı
-
+Table 6 - ZOTCTTR_EF_T0004
 
 ## 4.3.5. ZOTCTTR_EF_T0005
 
-Seri uyarlama tablosudur. Hangi belge tipin hangi seri kullanacağı bilgisini içerir.
-
-Seri Türü: Seri üretim algoritmasını tekli seri, çoklu seri, akıllı seri vb. şekilde çeşitlendirebilmek için kullanılır.
-
+Serial customizing table. Maps invoice serials to invoice scenarios. This table is also used for determining serial type e.g single serial, multiple serial, smart serial etc.
 
 <table>
   <tr>
-   <td><strong>Alan Adı</strong>
+   <td><strong>Description</strong>
    </td>
    <td><strong>Key</strong>
    </td>
    <td><strong>Data Element</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -700,7 +700,7 @@ Seri Türü: Seri üretim algoritmasını tekli seri, çoklu seri, akıllı seri
    </td>
    <td>ZOTCTTR_EF_DE027
    </td>
-   <td>Senaryo
+   <td>Scenario
    </td>
   </tr>
   <tr>
@@ -710,7 +710,7 @@ Seri Türü: Seri üretim algoritmasını tekli seri, çoklu seri, akıllı seri
    </td>
    <td>ZOTCTTR_EF_DE036
    </td>
-   <td>Seri Ön Ek
+   <td>Serial Prefix
    </td>
   </tr>
   <tr>
@@ -720,7 +720,7 @@ Seri Türü: Seri üretim algoritmasını tekli seri, çoklu seri, akıllı seri
    </td>
    <td>ZOTCTTR_EF_DE037
    </td>
-   <td>Seri Nesnesi
+   <td>Number Object
    </td>
   </tr>
   <tr>
@@ -730,29 +730,28 @@ Seri Türü: Seri üretim algoritmasını tekli seri, çoklu seri, akıllı seri
    </td>
    <td>ZOTCTTR_EF_DE038
    </td>
-   <td>Seri Türü
+   <td>Serial Type
    </td>
   </tr>
 </table>
 
 
-Tablo 7 - ZOTCTTR_EF_T0005 Tablo yapısı
+Table 7 - ZOTCTTR_EF_T0005
 
 
 ## 4.3.6. ZOTCTTR_EF_T0006
 
-İhracat uyarlama tablosudur. Hangi belge tiplerinin ihracat veya ihraç kayıtlı olduğu bilgisini içerir. IHR_TYPE alanı 'IHRACAT' ya da 'IHRACKAYITLI' değeri tutar.
-
+Export invoice customizing table. Maps invoice scenarios to export or export registered invoices.
 
 <table>
   <tr>
-   <td><strong>Alan Adı</strong>
+   <td><strong>Fieldname</strong>
    </td>
    <td><strong>Key</strong>
    </td>
    <td><strong>Data Element</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -772,7 +771,7 @@ Tablo 7 - ZOTCTTR_EF_T0005 Tablo yapısı
    </td>
    <td>ZOTCTTR_EF_DE027
    </td>
-   <td>Senaryo
+   <td>Scenario
    </td>
   </tr>
   <tr>
@@ -782,29 +781,29 @@ Tablo 7 - ZOTCTTR_EF_T0005 Tablo yapısı
    </td>
    <td>ZOTCTTR_EF_DE039
    </td>
-   <td>İhracat Tipi
+   <td>Export Type
    </td>
   </tr>
 </table>
 
 
-Tablo 8 - ZOTCTTR_EF_T0006 Tablo yapısı
+Table 8 - ZOTCTTR_EF_T0006
 
 
 ## 4.3.7. ZOTCTTR_EF_T0007
 
 Faturalaşma uyarlama tablosudur. Hangi alıcıyla hangi profilde (temel, ticari) faturalaşılacağı bilgisini saklar.
 
-
+Invoicing profile customizing table. Determines invoice profiles (Basic Invoice, Commercial Invoice) based on invoice receiver.
 <table>
   <tr>
-   <td><strong>Alan Adı</strong>
+   <td><strong>Fieldname</strong>
    </td>
    <td><strong>Key</strong>
    </td>
    <td><strong>Data Element</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -818,13 +817,13 @@ Faturalaşma uyarlama tablosudur. Hangi alıcıyla hangi profilde (temel, ticari
    </td>
   </tr>
   <tr>
-   <td>VKN
+   <td>TIN
    </td>
    <td>X
    </td>
    <td>ZOTCTTR_EF_DE040
    </td>
-   <td>Alıcı VKN
+   <td>Receiver Tax ID No
    </td>
   </tr>
   <tr>
@@ -834,7 +833,7 @@ Faturalaşma uyarlama tablosudur. Hangi alıcıyla hangi profilde (temel, ticari
    </td>
    <td>ZOTCTTR_EF_DE041
    </td>
-   <td>Alıcı PK
+   <td>Receiver GIB Alias
    </td>
   </tr>
   <tr>
@@ -844,29 +843,29 @@ Faturalaşma uyarlama tablosudur. Hangi alıcıyla hangi profilde (temel, ticari
    </td>
    <td>ZOTCTTR_EF_DE023
    </td>
-   <td>Profil
+   <td>Profile
    </td>
   </tr>
 </table>
 
 
-Tablo 9 - ZOTCTTR_EF_T0007 Tablo yapısı
+Table 9 - ZOTCTTR_EF_T0007
 
 
 ## 4.3.8. ZOTCTTR_EF_T0008
 
-Banka bilgileri uyarlama tablosudur. 
+Bank customization. Used in invoice note as payment instruction.
 
 
 <table>
   <tr>
-   <td><strong>Alan Adı</strong>
+   <td><strong>Fieldname</strong>
    </td>
    <td><strong>Key</strong>
    </td>
    <td><strong>Data Element</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -886,7 +885,7 @@ Banka bilgileri uyarlama tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE027
    </td>
-   <td>Senaryo
+   <td>Scenario
    </td>
   </tr>
   <tr>
@@ -896,7 +895,7 @@ Banka bilgileri uyarlama tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE042
    </td>
-   <td>Para Birimi
+   <td>Currency
    </td>
   </tr>
   <tr>
@@ -906,7 +905,7 @@ Banka bilgileri uyarlama tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE043
    </td>
-   <td>Banka Anahtarı
+   <td>Bank Key
    </td>
   </tr>
   <tr>
@@ -916,7 +915,7 @@ Banka bilgileri uyarlama tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE044
    </td>
-   <td>Şube
+   <td>Bank Branch
    </td>
   </tr>
   <tr>
@@ -926,7 +925,7 @@ Banka bilgileri uyarlama tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE045
    </td>
-   <td>Şube Tanımı
+   <td>Branch Title
    </td>
   </tr>
   <tr>
@@ -936,7 +935,7 @@ Banka bilgileri uyarlama tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE046
    </td>
-   <td>Hesap Numarası
+   <td>Account No
    </td>
   </tr>
   <tr>
@@ -952,23 +951,23 @@ Banka bilgileri uyarlama tablosudur.
 </table>
 
 
-Tablo 10 - ZOTCTTR_EF_T0008 Tablo yapısı
+Table 10 - ZOTCTTR_EF_T0008
 
 
 ## 4.3.9. ZOTCTTR_EF_T0009
 
-Client uyarlama tablosudur.
+Client customization table. You could add, edit or delete extractors.
 
 
 <table>
   <tr>
-   <td><strong>Alan Adı</strong>
+   <td><strong>Fieldname</strong>
    </td>
    <td><strong>Key</strong>
    </td>
    <td><strong>Data Element</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -998,7 +997,7 @@ Client uyarlama tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE103
    </td>
-   <td>Extractor Adı
+   <td>Extractor Name
    </td>
   </tr>
   <tr>
@@ -1034,23 +1033,23 @@ Client uyarlama tablosudur.
 </table>
 
 
-Tablo 11 - ZOTCTTR_EF_T0009 Tablo yapısı
+Table 11 - ZOTCTTR_EF_T0009
 
 
 ## 4.3.9. ZOTCTTR_EF_T0101
 
-Vergi kodları için uyarlama tablosudur.
+Tax codes customizing table. Tax codes and types are listed here based on invoice scenario.
 
 
 <table>
   <tr>
-   <td><strong>Alan Adı</strong>
+   <td><strong>Fieldname</strong>
    </td>
    <td><strong>Key</strong>
    </td>
    <td><strong>Data Element</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1070,7 +1069,7 @@ Vergi kodları için uyarlama tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE027
    </td>
-   <td>Senaryo
+   <td>Scenario
    </td>
   </tr>
   <tr>
@@ -1080,7 +1079,7 @@ Vergi kodları için uyarlama tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE048
    </td>
-   <td>VergiKodu
+   <td>Tax Code
    </td>
   </tr>
   <tr>
@@ -1090,7 +1089,7 @@ Vergi kodları için uyarlama tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE049
    </td>
-   <td>Vergi Açıklaması
+   <td>Tax Description
    </td>
   </tr>
   <tr>
@@ -1100,7 +1099,7 @@ Vergi kodları için uyarlama tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE050
    </td>
-   <td>Vergi Yüzdesi
+   <td>Tax Percent
    </td>
   </tr>
   <tr>
@@ -1110,29 +1109,29 @@ Vergi kodları için uyarlama tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE051
    </td>
-   <td>Vergi Maktu Değeri
+   <td>Tax Flat Value
    </td>
   </tr>
 </table>
 
 
-Tablo 12 - ZOTCTTR_EF_T0101 Tablo yapısı
+Table 12 - ZOTCTTR_EF_T0101
 
 
 ## 4.3.10. ZOTCTTR_EF_T0102
 
-Vergi istisna uyarlama tablosudur.
+Tax exemption customizing table. Tax exemptions are listed here based on invoice scenario.
 
 
 <table>
   <tr>
-   <td><strong>Alan Adı</strong>
+   <td><strong>Fieldname</strong>
    </td>
    <td><strong>Key</strong>
    </td>
    <td><strong>Data Element</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1152,7 +1151,7 @@ Vergi istisna uyarlama tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE027
    </td>
-   <td>Senaryo
+   <td>Scenario
    </td>
   </tr>
   <tr>
@@ -1162,7 +1161,7 @@ Vergi istisna uyarlama tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE052
    </td>
-   <td>İstisna Kodu
+   <td>Tax Exemption Reason Code
    </td>
   </tr>
   <tr>
@@ -1172,29 +1171,28 @@ Vergi istisna uyarlama tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE053
    </td>
-   <td>İstisna Açıklaması
+   <td>Tax Exemption Reason Description
    </td>
   </tr>
 </table>
 
 
-Tablo 13 - ZOTCTTR_EF_T0102 Tablo yapısı
+Table 13 - ZOTCTTR_EF_T0102
 
 
 ## 4.3.11. ZOTCTTR_EF_T0103
 
-Tevkifat uyarlama tablosudur.
-
+Tax withholding customization table.
 
 <table>
   <tr>
-   <td><strong>Alan Adı</strong>
+   <td><strong>Fieldname</strong>
    </td>
    <td><strong>Key</strong>
    </td>
    <td><strong>Data Element</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1214,7 +1212,7 @@ Tevkifat uyarlama tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE027
    </td>
-   <td>Belge Tipi
+   <td>Scenario
    </td>
   </tr>
   <tr>
@@ -1224,7 +1222,7 @@ Tevkifat uyarlama tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE054
    </td>
-   <td>Tevkifat Kodu
+   <td>Tax Withholding Code
    </td>
   </tr>
   <tr>
@@ -1234,7 +1232,7 @@ Tevkifat uyarlama tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE055
    </td>
-   <td>Tevkifat Açıklaması
+   <td>Tax Withholding Description
    </td>
   </tr>
   <tr>
@@ -1244,13 +1242,13 @@ Tevkifat uyarlama tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE056
    </td>
-   <td>Tevkifat Oranı
+   <td>Tax Withholding Percent
    </td>
   </tr>
 </table>
 
 
-Tablo 14 - ZOTCTTR_EF_T0103 Tablo yapısı
+Table 14 - ZOTCTTR_EF_T0103 
 
 
 ## 4.3.12. ZOTCTTR_EF_T0104
@@ -1280,13 +1278,13 @@ SD, FI, MM vb. belgelerden türetilen faturalar için belge tipi uyarlamasıdır
    </td>
   </tr>
   <tr>
-   <td>SCENARIO
+   <td>MODULE
    </td>
    <td>X
    </td>
-   <td>ZOTCTTR_EF_DE057
+   <td>ZOTCTTR_EF_DE024
    </td>
-   <td>Senaryo
+   <td>Modül
    </td>
   </tr>
   <tr>
@@ -1296,7 +1294,7 @@ SD, FI, MM vb. belgelerden türetilen faturalar için belge tipi uyarlamasıdır
    </td>
    <td>ZOTCTTR_EF_DE025
    </td>
-   <td>Parametre Key
+   <td>Parameter Key
    </td>
   </tr>
   <tr>
@@ -1306,13 +1304,13 @@ SD, FI, MM vb. belgelerden türetilen faturalar için belge tipi uyarlamasıdır
    </td>
    <td>ZOTCTTR_EF_DE026
    </td>
-   <td>Parametre Value
+   <td>Parameter Value
    </td>
   </tr>
 </table>
 
 
-Tablo 10 - ZOTCTTR_EF_T0104 Tablo yapısı
+Table 10 - ZOTCTTR_EF_T0104
 
 
 ## 4.3.13. ZOTCTTR_EF_T0201
