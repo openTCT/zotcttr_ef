@@ -792,8 +792,6 @@ Table 8 - ZOTCTTR_EF_T0006
 
 ## 4.3.7. ZOTCTTR_EF_T0007
 
-Faturalaşma uyarlama tablosudur. Hangi alıcıyla hangi profilde (temel, ticari) faturalaşılacağı bilgisini saklar.
-
 Invoicing profile customizing table. Determines invoice profiles (Basic Invoice, Commercial Invoice) based on invoice receiver.
 <table>
   <tr>
@@ -1253,18 +1251,17 @@ Table 14 - ZOTCTTR_EF_T0103
 
 ## 4.3.12. ZOTCTTR_EF_T0104
 
-SD, FI, MM vb. belgelerden türetilen faturalar için belge tipi uyarlamasıdır. 
-
+Mapping table for SD, MM, FI vb. keys. Links with table ZOTCTTR_EF_T1104
 
 <table>
   <tr>
-   <td><strong>Alan Adı</strong>
+   <td><strong>Fieldname</strong>
    </td>
    <td><strong>Key</strong>
    </td>
    <td><strong>Data Element</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1284,7 +1281,7 @@ SD, FI, MM vb. belgelerden türetilen faturalar için belge tipi uyarlamasıdır
    </td>
    <td>ZOTCTTR_EF_DE024
    </td>
-   <td>Modül
+   <td>Module
    </td>
   </tr>
   <tr>
@@ -1310,23 +1307,22 @@ SD, FI, MM vb. belgelerden türetilen faturalar için belge tipi uyarlamasıdır
 </table>
 
 
-Table 10 - ZOTCTTR_EF_T0104
+Table 15 - ZOTCTTR_EF_T0104
 
 
 ## 4.3.13. ZOTCTTR_EF_T0201
 
-Mükellef liste tablosudur. GİB tarafından yayınlanan listeyi tutar.
-
+e-Invoice userlist. Filled directly from the ministery of finance.
 
 <table>
   <tr>
-   <td><strong>Alan Adı</strong>
+   <td><strong>Fieldname</strong>
    </td>
    <td><strong>Key</strong>
    </td>
    <td><strong>Data Element</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1346,7 +1342,7 @@ Mükellef liste tablosudur. GİB tarafından yayınlanan listeyi tutar.
    </td>
    <td>ZOTCTTR_EF_DE002
    </td>
-   <td>VKN ya da TCKN
+   <td>VKN or TCKN
    </td>
   </tr>
   <tr>
@@ -1356,7 +1352,7 @@ Mükellef liste tablosudur. GİB tarafından yayınlanan listeyi tutar.
    </td>
    <td>ZOTCTTR_EF_DE001
    </td>
-   <td>Unvan ya da İsim
+   <td>Title or Name
    </td>
   </tr>
   <tr>
@@ -1366,7 +1362,7 @@ Mükellef liste tablosudur. GİB tarafından yayınlanan listeyi tutar.
    </td>
    <td>ZOTCTTR_EF_DE058
    </td>
-   <td>Mükellef Tipi
+   <td>User Type
    </td>
   </tr>
   <tr>
@@ -1376,7 +1372,7 @@ Mükellef liste tablosudur. GİB tarafından yayınlanan listeyi tutar.
    </td>
    <td>ZOTCTTR_EF_DE059
    </td>
-   <td>İlk Kayıt Tarihi
+   <td>First Registration Date
    </td>
   </tr>
   <tr>
@@ -1386,7 +1382,7 @@ Mükellef liste tablosudur. GİB tarafından yayınlanan listeyi tutar.
    </td>
    <td>ZOTCTTR_EF_DE060
    </td>
-   <td>Hesap Tipi
+   <td>Account Type
    </td>
   </tr>
   <tr>
@@ -1396,7 +1392,7 @@ Mükellef liste tablosudur. GİB tarafından yayınlanan listeyi tutar.
    </td>
    <td>ZOTCTTR_EF_DE061
    </td>
-   <td>Invoice, Despatch Advice vb.
+   <td>Invoice, Despatch Advice etc.
    </td>
   </tr>
   <tr>
@@ -1416,7 +1412,7 @@ Mükellef liste tablosudur. GİB tarafından yayınlanan listeyi tutar.
    </td>
    <td>ZOTCTTR_EF_DE062
    </td>
-   <td>Alias kayıt zamanı
+   <td>Alias creation date
    </td>
   </tr>
   <tr>
@@ -1426,29 +1422,28 @@ Mükellef liste tablosudur. GİB tarafından yayınlanan listeyi tutar.
    </td>
    <td>ZOTCTTR_EF_DE063
    </td>
-   <td>Alias silinme zamanı
+   <td>Alias deletion date
    </td>
   </tr>
 </table>
 
 
-Tablo 10 - ZOTCTTR_EF_T0201 Tablo yapısı
+Table 16 - ZOTCTTR_EF_T0201 
 
 
 ## 4.3.14. ZOTCTTR_EF_T0202
 
-Birim kodu listesidir. SAP'deki ölçü birimlerine karşılık gelen UNECE kodları burada tutulur.
-
+Unit code list. Maps SAP unit codes to UNECE unit codes.
 
 <table>
   <tr>
-   <td><strong>Alan Adı</strong>
+   <td><strong>Fieldname</strong>
    </td>
    <td><strong>Key</strong>
    </td>
    <td><strong>Data Element</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1468,7 +1463,7 @@ Birim kodu listesidir. SAP'deki ölçü birimlerine karşılık gelen UNECE kodl
    </td>
    <td>ZOTCTTR_EF_DE064
    </td>
-   <td>SAP Ölçü Birimi
+   <td>SAP Unit Code
    </td>
   </tr>
   <tr>
@@ -1478,29 +1473,28 @@ Birim kodu listesidir. SAP'deki ölçü birimlerine karşılık gelen UNECE kodl
    </td>
    <td>ZOTCTTR_EF_DE065
    </td>
-   <td>UNECE Ölçü Birimi
+   <td>UNECE Unit Code
    </td>
   </tr>
 </table>
 
 
-Tablo 10 - ZOTCTTR_EF_T0202 Tablo yapısı
+Table 17 - ZOTCTTR_EF_T0202
 
 
 ## 4.3.15. ZOTCTTR_EF_T0203
 
-Statü kodu listesidir. Hangi statünün ne anlama geldiğini, bu statülerin ikonlarını ve hangi statülerdeki belgelerin tekrar gönderilebilir durumda olduğu bilgilerini saklar.
-
+List of status codes. Stores status code descriptions and which statuses are resendable.
 
 <table>
   <tr>
-   <td><strong>Alan Adı</strong>
+   <td><strong>Fieldname</strong>
    </td>
    <td><strong>Key</strong>
    </td>
    <td><strong>Data Element</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1520,7 +1514,7 @@ Statü kodu listesidir. Hangi statünün ne anlama geldiğini, bu statülerin ik
    </td>
    <td>ZOTCTTR_EF_DE066
    </td>
-   <td>GİB Statü Kodu
+   <td>GIB Status Code
    </td>
   </tr>
   <tr>
@@ -1530,7 +1524,7 @@ Statü kodu listesidir. Hangi statünün ne anlama geldiğini, bu statülerin ik
    </td>
    <td>ZOTCTTR_EF_DE067
    </td>
-   <td>Açıklama
+   <td>Description
    </td>
   </tr>
   <tr>
@@ -1540,7 +1534,37 @@ Statü kodu listesidir. Hangi statünün ne anlama geldiğini, bu statülerin ik
    </td>
    <td>ZOTCTTR_EF_DE068
    </td>
-   <td>Tekrar Gönderilebilir
+   <td>Resendable
+   </td>
+  </tr>
+  <tr>
+   <td>RESERIAL
+   </td>
+   <td>
+   </td>
+   <td>-new-
+   </td>
+   <td>Send with new serial
+   </td>
+  </tr>
+  <tr>
+   <td>REUUID
+   </td>
+   <td>
+   </td>
+   <td>-new-
+   </td>
+   <td>Send with new UUID
+   </td>
+  </tr>
+  <tr>
+   <td>REZUUID
+   </td>
+   <td>
+   </td>
+   <td>-new-
+   </td>
+   <td>Send with new envelope
    </td>
   </tr>
   <tr>
@@ -1550,7 +1574,7 @@ Statü kodu listesidir. Hangi statünün ne anlama geldiğini, bu statülerin ik
    </td>
    <td>ZOTCTTR_EF_DE069
    </td>
-   <td>İkon
+   <td>İcon
    </td>
   </tr>
   <tr>
@@ -1560,7 +1584,7 @@ Statü kodu listesidir. Hangi statünün ne anlama geldiğini, bu statülerin ik
    </td>
    <td>ZOTCTTR_EF_DE070
    </td>
-   <td>İleti ID
+   <td>Message ID
    </td>
   </tr>
   <tr>
@@ -1570,29 +1594,28 @@ Statü kodu listesidir. Hangi statünün ne anlama geldiğini, bu statülerin ik
    </td>
    <td>ZOTCTTR_EF_DE071
    </td>
-   <td>İleti No
+   <td>Message No
    </td>
   </tr>
 </table>
 
 
-Tablo 10 - ZOTCTTR_EF_T0203 Tablo yapısı
+Table 18 - ZOTCTTR_EF_T0203
 
 
 ## 4.3.16. ZOTCTTR_EF_T0204
 
-Para birimi listesidir. Fatura belgelerinde kullanılan para birimlerini tutar.
-
+Currency list. Stores currencies that are used in invoices.
 
 <table>
   <tr>
-   <td><strong>Alan Adı</strong>
+   <td><strong>Fieldname</strong>
    </td>
    <td><strong>Key</strong>
    </td>
    <td><strong>Data Element</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1612,7 +1635,7 @@ Para birimi listesidir. Fatura belgelerinde kullanılan para birimlerini tutar.
    </td>
    <td>ZOTCTTR_EF_DE072
    </td>
-   <td>Para Birimi
+   <td>Currency
    </td>
   </tr>
   <tr>
@@ -1622,29 +1645,28 @@ Para birimi listesidir. Fatura belgelerinde kullanılan para birimlerini tutar.
    </td>
    <td>ZOTCTTR_EF_DE073
    </td>
-   <td>Açıklama
+   <td>Description
    </td>
   </tr>
 </table>
 
 
-Tablo 10 - ZOTCTTR_EF_T0204 Tablo yapısı
+Tablo 19 - ZOTCTTR_EF_T0204 
 
 
 ## 4.3.17. ZOTCTTR_EF_T0205
 
-Parametrik uyarlama tablosudur
-
+Parametric configuration table.
 
 <table>
   <tr>
-   <td><strong>Alan Adı</strong>
+   <td><strong>Fieldname</strong>
    </td>
    <td><strong>Key</strong>
    </td>
    <td><strong>Data Element</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1664,7 +1686,7 @@ Parametrik uyarlama tablosudur
    </td>
    <td>ZOTCTTR_EF_DE027
    </td>
-   <td>Senaryo
+   <td>Scenario
    </td>
   </tr>
   <tr>
@@ -1674,7 +1696,7 @@ Parametrik uyarlama tablosudur
    </td>
    <td>ZOTCTTR_EF_DE025
    </td>
-   <td>Parametre Key
+   <td>Parameter Key
    </td>
   </tr>
   <tr>
@@ -1684,7 +1706,7 @@ Parametrik uyarlama tablosudur
    </td>
    <td>ZOTCTTR_EF_DE026
    </td>
-   <td>Parametre Value
+   <td>Parameter Value
    </td>
   </tr>
 </table>
