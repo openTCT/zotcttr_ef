@@ -1651,7 +1651,7 @@ Currency list. Stores currencies that are used in invoices.
 </table>
 
 
-Tablo 19 - ZOTCTTR_EF_T0204 
+Table 19 - ZOTCTTR_EF_T0204 
 
 
 ## 4.3.17. ZOTCTTR_EF_T0205
@@ -1712,23 +1712,22 @@ Parametric configuration table.
 </table>
 
 
-Tablo 10 - ZOTCTTR_EF_T0204 Tablo yapısı
+Table 20 - ZOTCTTR_EF_T0204
 
 
 ## 4.3.18. ZOTCTTR_EF_T1101
 
-Fatura başlık tablosudur.
-
+Invoice header table.
 
 <table>
   <tr>
-   <td><strong>Alan Adı</strong>
+   <td><strong>Fieldname</strong>
    </td>
    <td><strong>Key</strong>
    </td>
    <td><strong>Data Element</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1748,7 +1747,7 @@ Fatura başlık tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE074
    </td>
-   <td>Belge No
+   <td>Document No
    </td>
   </tr>
   <tr>
@@ -1758,7 +1757,7 @@ Fatura başlık tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE075
    </td>
-   <td>Yıl
+   <td>Year
    </td>
   </tr>
   <tr>
@@ -1768,7 +1767,7 @@ Fatura başlık tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE083
    </td>
-   <td>
+   <td>Envelope UUID
    </td>
   </tr>
   <tr>
@@ -1788,7 +1787,7 @@ Fatura başlık tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE077
    </td>
-   <td>Yön (Gelen/Giden)
+   <td>Direction (Inbound/Outbound)
    </td>
   </tr>
   <tr>
@@ -1798,7 +1797,7 @@ Fatura başlık tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE078
    </td>
-   <td>Fatura Seri No
+   <td>Serial
    </td>
   </tr>
   <tr>
@@ -1808,7 +1807,7 @@ Fatura başlık tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE027
    </td>
-   <td>Senaryo
+   <td>Scenario
    </td>
   </tr>
   <tr>
@@ -1818,7 +1817,7 @@ Fatura başlık tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE079
    </td>
-   <td>Oluşturma Tarihi
+   <td>Creation Date
    </td>
   </tr>
   <tr>
@@ -1828,7 +1827,7 @@ Fatura başlık tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE080
    </td>
-   <td>Oluşturma Saati
+   <td>Creation Time
    </td>
   </tr>
   <tr>
@@ -1838,7 +1837,7 @@ Fatura başlık tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE081
    </td>
-   <td>Belge Tarihi
+   <td>Document Date
    </td>
   </tr>
   <tr>
@@ -1848,7 +1847,7 @@ Fatura başlık tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE082
    </td>
-   <td>Belge Saati
+   <td>Document Time
    </td>
   </tr>
   <tr>
@@ -1856,7 +1855,7 @@ Fatura başlık tablosudur.
    </td>
    <td>Index
    </td>
-   <td>
+   <td>ZOTCTTR_EF_DE102
    </td>
    <td>Extractor ID
    </td>
@@ -1868,7 +1867,7 @@ Fatura başlık tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE023
    </td>
-   <td>Profil
+   <td>Profile ID
    </td>
   </tr>
   <tr>
@@ -1878,7 +1877,7 @@ Fatura başlık tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE066
    </td>
-   <td>Belge Statüsü
+   <td>Document Status
    </td>
   </tr>
   <tr>
@@ -1888,29 +1887,29 @@ Fatura başlık tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE083
    </td>
-   <td>Uygulama Yanıtı ID
+   <td>Application Response ID
    </td>
   </tr>
 </table>
 
 
-Tablo 10 - ZOTCTTR_EF_T1101 Tablo yapısı
+Tablo 21 - ZOTCTTR_EF_T1101
 
 
 ## 4.3.19. ZOTCTTR_EF_T1102
 
-Giden fatura zarf tablosudur.
+Invoice envelope table.
 
 
 <table>
   <tr>
-   <td><strong>Alan Adı</strong>
+   <td><strong>Fieldname</strong>
    </td>
    <td><strong>Key</strong>
    </td>
    <td><strong>Data Element</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -1930,7 +1929,7 @@ Giden fatura zarf tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE083
    </td>
-   <td>Zarf UUID
+   <td>Envelope UUID
    </td>
   </tr>
   <tr>
@@ -1940,7 +1939,7 @@ Giden fatura zarf tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE077
    </td>
-   <td>Yön (Gelen/Giden)
+   <td>Direction (Inbound/Outbound)
    </td>
   </tr>
   <tr>
@@ -1950,7 +1949,7 @@ Giden fatura zarf tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE079
    </td>
-   <td>Oluşturma Tarihi
+   <td>Creation Date
    </td>
   </tr>
   <tr>
@@ -1960,7 +1959,7 @@ Giden fatura zarf tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE080
    </td>
-   <td>Oluşturma Saati
+   <td>Creation Time
    </td>
   </tr>
   <tr>
@@ -1970,7 +1969,7 @@ Giden fatura zarf tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE081
    </td>
-   <td>Belge Tarihi
+   <td>Document Date
    </td>
   </tr>
   <tr>
@@ -1980,7 +1979,7 @@ Giden fatura zarf tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE082
    </td>
-   <td>Belge Saati
+   <td>Document Time
    </td>
   </tr>
   <tr>
@@ -1990,29 +1989,28 @@ Giden fatura zarf tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE066
    </td>
-   <td>Belge Statüsü
+   <td>Envelope Status
    </td>
   </tr>
 </table>
 
 
-Tablo 10 - ZOTCTTR_EF_T1102Tablo yapısı
+Tablo 22 - ZOTCTTR_EF_T1102
 
 
 ## 4.3.20. ZOTCTTR_EF_T1103
 
-Giden fatura UBL tablosudur.
-
+UBL table
 
 <table>
   <tr>
-   <td><strong>Alan Adı</strong>
+   <td><strong>Fieldname</strong>
    </td>
    <td><strong>Key</strong>
    </td>
    <td><strong>Data Element</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -2042,7 +2040,7 @@ Giden fatura UBL tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE085
    </td>
-   <td>Düğüm ID
+   <td>Node ID
    </td>
   </tr>
   <tr>
@@ -2052,7 +2050,7 @@ Giden fatura UBL tablosudur.
    </td>
    <td>ZOTCTTR_EF_DE086
    </td>
-   <td>Bağlı Olduğu Düğüm
+   <td>Parent Node
    </td>
   </tr>
   <tr>
@@ -2077,24 +2075,22 @@ Giden fatura UBL tablosudur.
   </tr>
 </table>
 
-
-Tablo 10 - ZOTCTTR_EF_T1103Tablo yapısı
+Tablo 23 - ZOTCTTR_EF_T1103
 
 
 ## 4.3.21. ZOTCTTR_EF_T1301
 
-Uygulama yanıtlarının tutulduğu tablodur..
-
+Application response table (Inbound)
 
 <table>
   <tr>
-   <td><strong>Alan Adı</strong>
+   <td><strong>Fieldname</strong>
    </td>
    <td><strong>Key</strong>
    </td>
    <td><strong>Data Element</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -2114,7 +2110,7 @@ Uygulama yanıtlarının tutulduğu tablodur..
    </td>
    <td>ZOTCTTR_EF_DE084
    </td>
-   <td>
+   <td>Envelope UUID
    </td>
   </tr>
   <tr>
@@ -2124,7 +2120,7 @@ Uygulama yanıtlarının tutulduğu tablodur..
    </td>
    <td>ZOTCTTR_EF_DE076
    </td>
-   <td>
+   <td>UUID
    </td>
   </tr>
   <tr>
@@ -2134,7 +2130,7 @@ Uygulama yanıtlarının tutulduğu tablodur..
    </td>
    <td>ZOTCTTR_EF_DE079
    </td>
-   <td>Oluşturma Tarihi
+   <td>Creation Date
    </td>
   </tr>
   <tr>
@@ -2144,7 +2140,7 @@ Uygulama yanıtlarının tutulduğu tablodur..
    </td>
    <td>ZOTCTTR_EF_DE080
    </td>
-   <td>Oluşturma Saati
+   <td>Creation Time
    </td>
   </tr>
   <tr>
@@ -2154,7 +2150,7 @@ Uygulama yanıtlarının tutulduğu tablodur..
    </td>
    <td>ZOTCTTR_EF_DE081
    </td>
-   <td>Belge Tarihi
+   <td>Document Date
    </td>
   </tr>
   <tr>
@@ -2164,7 +2160,7 @@ Uygulama yanıtlarının tutulduğu tablodur..
    </td>
    <td>ZOTCTTR_EF_DE082
    </td>
-   <td>Belge Saati
+   <td>Document Time
    </td>
   </tr>
   <tr>
@@ -2174,7 +2170,7 @@ Uygulama yanıtlarının tutulduğu tablodur..
    </td>
    <td>ZOTCTTR_EF_DE089
    </td>
-   <td>Referans ID
+   <td>Reference ID
    </td>
   </tr>
   <tr>
@@ -2184,7 +2180,7 @@ Uygulama yanıtlarının tutulduğu tablodur..
    </td>
    <td>ZOTCTTR_EF_DE090
    </td>
-   <td>Yanıt Kodu
+   <td>Response Code
    </td>
   </tr>
   <tr>
@@ -2194,7 +2190,7 @@ Uygulama yanıtlarının tutulduğu tablodur..
    </td>
    <td>ZOTCTTR_EF_DE091
    </td>
-   <td>Açıklama
+   <td>Description
    </td>
   </tr>
   <tr>
@@ -2204,29 +2200,26 @@ Uygulama yanıtlarının tutulduğu tablodur..
    </td>
    <td>ZOTCTTR_EF_DE066
    </td>
-   <td>Belge Durumu
+   <td>Document Status
    </td>
   </tr>
 </table>
 
-
-Tablo 10 - ZOTCTTR_EF_T1301Tablo yapısı
-
+Tablo 24 - ZOTCTTR_EF_T1301
 
 ## 4.3.22. ZOTCTTR_EF_T1401
 
-Gelen faturalara verilen yanıtların tutulduğu tablodur.
-
+Application response table (Outbound)
 
 <table>
   <tr>
-   <td><strong>Alan Adı</strong>
+   <td><strong>Fieldname</strong>
    </td>
    <td><strong>Key</strong>
    </td>
    <td><strong>Data Element</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -2246,7 +2239,7 @@ Gelen faturalara verilen yanıtların tutulduğu tablodur.
    </td>
    <td>ZOTCTTR_EF_DE084
    </td>
-   <td>
+   <td>Envelope UUID
    </td>
   </tr>
   <tr>
@@ -2256,7 +2249,7 @@ Gelen faturalara verilen yanıtların tutulduğu tablodur.
    </td>
    <td>ZOTCTTR_EF_DE076
    </td>
-   <td>
+   <td>UUID
    </td>
   </tr>
   <tr>
@@ -2266,7 +2259,7 @@ Gelen faturalara verilen yanıtların tutulduğu tablodur.
    </td>
    <td>ZOTCTTR_EF_DE079
    </td>
-   <td>Oluşturma Tarihi
+   <td>Creation Date
    </td>
   </tr>
   <tr>
@@ -2276,7 +2269,7 @@ Gelen faturalara verilen yanıtların tutulduğu tablodur.
    </td>
    <td>ZOTCTTR_EF_DE080
    </td>
-   <td>Oluşturma Saati
+   <td>Creation Time
    </td>
   </tr>
   <tr>
@@ -2286,7 +2279,7 @@ Gelen faturalara verilen yanıtların tutulduğu tablodur.
    </td>
    <td>ZOTCTTR_EF_DE081
    </td>
-   <td>Belge Tarihi
+   <td>Document Date
    </td>
   </tr>
   <tr>
@@ -2296,7 +2289,7 @@ Gelen faturalara verilen yanıtların tutulduğu tablodur.
    </td>
    <td>ZOTCTTR_EF_DE082
    </td>
-   <td>Belge Saati
+   <td>Document Time
    </td>
   </tr>
   <tr>
@@ -2306,7 +2299,7 @@ Gelen faturalara verilen yanıtların tutulduğu tablodur.
    </td>
    <td>ZOTCTTR_EF_DE089
    </td>
-   <td>Referans ID
+   <td>Reference ID
    </td>
   </tr>
   <tr>
@@ -2316,7 +2309,7 @@ Gelen faturalara verilen yanıtların tutulduğu tablodur.
    </td>
    <td>ZOTCTTR_EF_DE090
    </td>
-   <td>Yanıt Kodu
+   <td>Response Code
    </td>
   </tr>
   <tr>
@@ -2326,7 +2319,7 @@ Gelen faturalara verilen yanıtların tutulduğu tablodur.
    </td>
    <td>ZOTCTTR_EF_DE091
    </td>
-   <td>Açıklama
+   <td>Description
    </td>
   </tr>
   <tr>
@@ -2336,29 +2329,28 @@ Gelen faturalara verilen yanıtların tutulduğu tablodur.
    </td>
    <td>ZOTCTTR_EF_DE066
    </td>
-   <td>Belge Durumu
+   <td>Document Status
    </td>
   </tr>
 </table>
 
 
-Tablo 10 - ZOTCTTR_EF_T1401Tablo yapısı
+Tablo 25 - ZOTCTTR_EF_T1401
 
 
 ## 4.3.22. ZOTCTTR_EF_T2001
 
-Job log tablosudur. Job raporu çalışırken hangi işlemi yapması gerektiğini bu logları inceleyerek yorumlar.
-
+Configuration table for jobs. Job logic runs based on this configuration.
 
 <table>
   <tr>
-   <td><strong>Alan Adı</strong>
+   <td><strong>Fieldname</strong>
    </td>
    <td><strong>Key</strong>
    </td>
    <td><strong>Data Element</strong>
    </td>
-   <td><strong>Açıklama</strong>
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
@@ -2378,7 +2370,7 @@ Job log tablosudur. Job raporu çalışırken hangi işlemi yapması gerektiğin
    </td>
    <td>ZOTCTTR_EF_DE098
    </td>
-   <td>
+   <td>Job ID
    </td>
   </tr>
   <tr>
@@ -2388,7 +2380,7 @@ Job log tablosudur. Job raporu çalışırken hangi işlemi yapması gerektiğin
    </td>
    <td>ZOTCTTR_EF_DE079
    </td>
-   <td>Oluşturma Tarihi
+   <td>Creation Date
    </td>
   </tr>
   <tr>
@@ -2398,7 +2390,7 @@ Job log tablosudur. Job raporu çalışırken hangi işlemi yapması gerektiğin
    </td>
    <td>ZOTCTTR_EF_DE080
    </td>
-   <td>Oluşturma Saati
+   <td>Creation Time
    </td>
   </tr>
   <tr>
@@ -2408,7 +2400,7 @@ Job log tablosudur. Job raporu çalışırken hangi işlemi yapması gerektiğin
    </td>
    <td>ZOTCTTR_EF_DE100
    </td>
-   <td>Job bitiş tarihi
+   <td>Job end date
    </td>
   </tr>
   <tr>
@@ -2418,7 +2410,7 @@ Job log tablosudur. Job raporu çalışırken hangi işlemi yapması gerektiğin
    </td>
    <td>ZOTCTTR_EF_DE101
    </td>
-   <td>Job bitiş saati
+   <td>Job end time
    </td>
   </tr>
   <tr>
@@ -2428,7 +2420,7 @@ Job log tablosudur. Job raporu çalışırken hangi işlemi yapması gerektiğin
    </td>
    <td>ZOTCTTR_EF_DE099
    </td>
-   <td>
+   <td>Job Tipi
    </td>
   </tr>
   <tr>
